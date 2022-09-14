@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Open Sans Italic';
+    src: url('./src/Assets/Fonts/static/OpenSans_Condensed/OpenSans_Condensed-Italic.ttf');
+    src: url('./src/Assets/Fonts/static/OpenSans_Condensed/OpenSans_Condensed-Light.ttf') format('embedded-opentype'),
+         url('./src/Assets/Fonts/static/OpenSans_Condensed/OpenSans_Condensed-Italic.ttf') format('woff'),
+         url('./src/Assets/Fonts/static/OpenSans_Condensed/OpenSans_Condensed-Italic.ttf') format('truetype'),
+         url('./src/Assets/Fonts/static/OpenSans_Condensed/OpenSans_Condensed-Italic.ttf') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
