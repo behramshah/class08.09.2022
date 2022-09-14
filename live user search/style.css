@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hide {
+    display: none;
+}
+
+#main_container {
+    width: 300px;
+    height: 600px;
+}
+
+#filter_container {
+    background-color: mediumblue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px;
+}
+
+#search_user {
+    color: white;
+    background-color: darkblue;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#results_list {
+    height: 450px;
+    overflow-y: scroll;
+}

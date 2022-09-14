@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="game_board">
+        <div id="playground"></div>
+    </div>
+    <div class="game_control_info">
+        <div class="control_buttons">
+            <button id="start">Start</button>
+            <button id="stop">Stop</button>
+        </div>
+        <div class="level_radio">
+            <label for="level" value="easy" class="active">
+                Easy
+                <input value="easy" type="radio" name="level" class="radio_level">
+            </label>
+            <label for="level" value="medium">
+                Medium
+                <input value="medium" type="radio" name="level" class="radio_level">
+            </label>
+            <label for="level" value="hard">
+                Hard
+                <input value="hard" type="radio" name="level" class="radio_level">
+            </label>
+        </div>
+        <div id="score">
+            <h1>Your score</h1>
+            <p id="name"></p>
+            <p id="score_number">0</p>
+            <p id="game_status"></p>
+        </div>
+    </div>    
+</body>
+<script src="script.js"></script>
+</html>
